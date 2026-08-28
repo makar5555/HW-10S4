@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашнє завдання - setInterval та setTimeout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Домашнє завдання: setInterval та setTimeout</h1>
+
+    <!-- ==================== ЗАВДАННЯ 1 ==================== -->
+    <section>
+        <h2>Завдання 1 — Таймер інтервалу</h2>
+
+        <p id="timerMessage">Натисніть кнопку, щоб почати.</p>
+
+        <button onclick="startTimer()">Запустити таймер</button>
+    </section>
+
+
+    <!-- ==================== ЗАВДАННЯ 2 ==================== -->
+    <section>
+        <h2>Завдання 2 — Анімація елементів</h2>
+
+        <div id="animationArea">
+            <div class="square" id="square"></div>
+            <div class="square2" id="square2"></div>
+        </div>
+
+        <button onclick="startAnimation()">Запустити анімацію</button>
+        <button onclick="stopAnimation()">Зупинити анімацію</button>
+    </section>
+
+
+    <!-- ==================== ЗАВДАННЯ 3 ==================== -->
+    <section>
+        <h2>Завдання 3 — Інтерактивна гра</h2>
+
+        <p>Натискайте на червону кнопку протягом 10 секунд!</p>
+
+        <p>Очки: <span id="score">0</span></p>
+        <p>Кількість натискань: <span id="clicks">0</span></p>
+        <p>Час: <span id="gameTime">10</span> секунд</p>
+
+        <button onclick="startGame()">Почати гру</button>
+
+        <br>
+
+        <button id="gameButton" onclick="clickGameButton()">
+            Натисни!
+        </button>
+    </section>
+
+
+    <!-- ==================== ЗАВДАННЯ 4 ==================== -->
+    <section>
+        <h2>Завдання 4 — Контроль часу</h2>
+
+        <p>Введіть кількість секунд:</p>
+
+        <input type="number" id="secondsInput" min="1">
+
+        <button onclick="startCountdown()">Запустити</button>
+
+        <p id="countdownMessage"></p>
+    </section>
+
+
+    <script src="./js/HWP-1.js"></script>
+    <script src="./js/HWP-2.js"></script>
+    <script src="./js/HWP-3.js"></script>
+    <script src="./js/HWP-4.js"></script>
+
+</body>
+</html>
